@@ -12,15 +12,7 @@
 
 ## 2. Блок-схема
 
-```mermaid
-graph TD
-    Start((Начало)) --> InputX[/Ввод x/]
-    InputX --> InputY[/Ввод y/]
-    InputY --> InputZ[/Ввод z/]
-    InputZ --> Calculate[Вычисление h по формуле]
-    Calculate --> Output[/Вывод h/]
-    Output --> End((Конец))
-```
+![Диаграмма](Диаграмма4.png)
 
 ## 3. Реализация программы
 
